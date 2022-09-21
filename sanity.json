@@ -1,0 +1,32 @@
+{
+  "root": true,
+  "project": {
+    "name": "Education"
+  },
+  "api": {
+    "projectId": "sthhjf5s",
+    "dataset": "education"
+  },
+  "plugins": [
+    "@sanity/base",
+    "@sanity/default-layout",
+    "@sanity/default-login",
+    "@sanity/desk-tool",
+    "@sanity/hierarchical-document-list",
+    "@sanity/components",
+    "@sanity/code-input"
+  ],
+  "env": {
+    "development": {
+      "plugins": [
+        "@sanity/vision"
+      ]
+    }
+  },
+  "parts": [
+    {
+      "name": "part:@sanity/base/schema",
+      "path": "./schemas/schema"
+    }
+  ]
+}
