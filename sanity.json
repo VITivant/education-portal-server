@@ -1,11 +1,11 @@
 {
   "root": true,
-  "project": {
-    "name": "Education"
-  },
   "api": {
     "projectId": "sthhjf5s",
     "dataset": "education"
+  },
+  "project": {
+    "name": "Education"
   },
   "plugins": [
     "@sanity/base",
